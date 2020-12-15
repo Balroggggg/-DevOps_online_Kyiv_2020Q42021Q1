@@ -1,0 +1,15 @@
+fbebb66 HEAD@{0}: merge develop: Fast-forward
+8d74a3f HEAD@{1}: checkout: moving from develop to master
+fbebb66 HEAD@{2}: commit (merge): Merged and resolved the conflict in index.html
+cef5eba HEAD@{3}: merge images: Fast-forward
+78c8bdc HEAD@{4}: checkout: moving from styles to develop
+d62c02e HEAD@{5}: commit: Index.html was changed. Styles were added.
+8d6d640 HEAD@{6}: commit: Styles were added
+78c8bdc HEAD@{7}: checkout: moving from develop to styles
+78c8bdc HEAD@{8}: checkout: moving from images to develop
+cef5eba HEAD@{9}: commit: Images were added in index.html
+549c571 HEAD@{10}: commit: Images were added
+78c8bdc HEAD@{11}: checkout: moving from develop to images
+78c8bdc HEAD@{12}: commit: Index.html is created
+8d74a3f HEAD@{13}: checkout: moving from master to develop
+8d74a3f HEAD@{14}: commit (initial): Added readme.txt
