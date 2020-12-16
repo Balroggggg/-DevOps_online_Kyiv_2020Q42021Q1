@@ -69,31 +69,31 @@ Also I've lernt some cli commands for VMware, such as:
 
 1. Created new folder for the future vagrant box
 
-![alt][screenshots/newDir.jpg]
+![alt][/screenshots/newDir.jpg]
 
 2. Initialized  the  environment  with  the  default  Vagrant  box and ran vagrant up: 
       init hashicorp/precise64
       
-![alt][screenshots/startUpVM.jpg]  
+![alt][/screenshots/startUpVM.jpg]  
 
-![alt][screenshots/statusVM.jpg]
+![alt][/screenshots/statusVM.jpg]
 
 3. Connected to the VM via ssh (127.0.0.1:2222):
 
-![alt][screenshots/sshVM.jpg]
+![alt][/screenshots/sshVM.jpg]
 
 4. Stoped and deleted the created VM.
 
-![alt][screenshots/stop&deleteVM.jpg]
+![alt][/screenshots/stop&deleteVM.jpg]
 
 5. Created one more VM 
 
-![alt][screenshots/initNewVM.jpg]
+![alt][/screenshots/initNewVM.jpg]
 
-![alt][screenshots/startUpNewVM.jpg]
+![alt][/screenshots/startUpNewVM.jpg]
 
-![alt][screenshots/sshNewVM.jpg]
+![alt][/screenshots/sshNewVM.jpg]
 
-![alt][screenshots/sshDateNewVM.jpg]
+![alt][/screenshots/sshDateNewVM.jpg]
 
-![alt][screenshots/stop&destroyNewVM.jpg]
+![alt][/screenshots/stop&destroyNewVM.jpg]
