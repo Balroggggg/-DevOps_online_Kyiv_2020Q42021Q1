@@ -17,4 +17,4 @@ automating change management, configuration management and deployment processes.
 DevOps also may be described as a link between development, quality assurance (QA) and other departments.
 Another aspect of DevOps is a phenomenon in which skilled professionals automate formerly manual processes, where developers become users of their own software,
 and manual labor related to an infrastructure becomes unnecessary. 
-New technologies, like cloud computing, have expanded what is possible in DevOps, and the approach has become popular in the tech com
+New technologies, like cloud computing, have expanded what is possible in DevOps, and the approach has become popular in the tech community.
