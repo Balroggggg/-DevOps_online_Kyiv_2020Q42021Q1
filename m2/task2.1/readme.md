@@ -53,9 +53,11 @@
 I've had Ubuntu already installed on VMware. I created new virtual machine running on Ubuntu by cloning an existing VM on Ubuntu.
 Then I set network adapters to VMnet8 on both to let VMs have a connection to each other. 
 
-Here are network settings:
+Here are the results of ping command from VM1 to VM2 and VM2 to VM1:
 
-Here is the result of ping command from VM1 to VM2:
+![alt](https://github.com/Balroggggg/-DevOps_online_Kyiv_2020Q42021Q1/tree/master/m2/task2.1/screenshots/Screenshot_20.jpg)
+
+![alt](https://github.com/Balroggggg/-DevOps_online_Kyiv_2020Q42021Q1/tree/master/m2/task2.1/screenshots/Screenshot_21.jpg)
 
 Also I've lernt some cli commands for VMware, such as:
 - vmrun list
