@@ -57,7 +57,7 @@ Here are the results of ping command from VM1 to VM2 and VM2 to VM1:
 
 ![alt](screenshots/Screenshot_20.jpg)
 
-![alt](Screenshot_21.jpg)
+![alt](screenshots/Screenshot_21.jpg)
 
 Also I've lernt some cli commands for VMware, such as:
 - vmrun list
@@ -71,31 +71,31 @@ Also I've lernt some cli commands for VMware, such as:
 
 1. Created new folder for the future vagrant box
 
-![alt](https://github.com/Balroggggg/-DevOps_online_Kyiv_2020Q42021Q1/tree/master/m2/task2.1/screenshots/newDir.jpg)
+![alt](screenshots/newDir.jpg)
 
 2. Initialized  the  environment  with  the  default  Vagrant  box and ran vagrant up: 
       init hashicorp/precise64
       
-![alt](https://github.com/Balroggggg/-DevOps_online_Kyiv_2020Q42021Q1/tree/master/m2/task2.1/screenshots/startUpVM.jpg)
+![alt](screenshots/startUpVM.jpg)
 
-![alt](https://github.com/Balroggggg/-DevOps_online_Kyiv_2020Q42021Q1/tree/master/m2/task2.1/screenshots/statusVM.jpg)
+![alt](screenshots/statusVM.jpg)
 
 3. Connected to the VM via ssh (127.0.0.1:2222):
 
-![alt](https://github.com/Balroggggg/-DevOps_online_Kyiv_2020Q42021Q1/tree/master/m2/task2.1/screenshots/sshVM.jpg)
+![alt](screenshots/sshVM.jpg)
 
 4. Stoped and deleted the created VM.
 
-![alt](https://github.com/Balroggggg/-DevOps_online_Kyiv_2020Q42021Q1/tree/master/m2/task2.1/screenshots/stop&deleteVM.jpg)
+![alt](screenshots/stop&deleteVM.jpg)
 
 5. Created one more VM 
 
-![alt](https://github.com/Balroggggg/-DevOps_online_Kyiv_2020Q42021Q1/tree/master/m2/task2.1/screenshots/initNewVM.jpg)
+![alt](screenshots/initNewVM.jpg)
 
-![alt](https://github.com/Balroggggg/-DevOps_online_Kyiv_2020Q42021Q1/tree/master/m2/task2.1/screenshots/startUpNewVM.jpg)
+![alt](screenshots/startUpNewVM.jpg)
 
-![alt](https://github.com/Balroggggg/-DevOps_online_Kyiv_2020Q42021Q1/tree/master/m2/task2.1/screenshots/sshNewVM.jpg)
+![alt](screenshots/sshNewVM.jpg)
 
-![alt](https://github.com/Balroggggg/-DevOps_online_Kyiv_2020Q42021Q1/tree/master/m2/task2.1/screenshots/sshDateNewVM.jpg)
+![alt](screenshots/sshDateNewVM.jpg)
 
-![alt](https://github.com/Balroggggg/-DevOps_online_Kyiv_2020Q42021Q1/tree/master/m2/task2.1/screenshots/stop&destroyNewVM.jpg)
+![alt](screenshots/stop&destroyNewVM.jpg)
