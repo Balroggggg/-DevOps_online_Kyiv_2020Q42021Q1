@@ -55,9 +55,9 @@ Then I set network adapters to VMnet8 on both to let VMs have a connection to ea
 
 Here are the results of ping command from VM1 to VM2 and VM2 to VM1:
 
-![alt](https://github.com/Balroggggg/-DevOps_online_Kyiv_2020Q42021Q1/tree/master/m2/task2.1/screenshots/Screenshot_20.jpg)
+![alt](screenshots/Screenshot_20.jpg)
 
-![alt](https://github.com/Balroggggg/-DevOps_online_Kyiv_2020Q42021Q1/tree/master/m2/task2.1/screenshots/Screenshot_21.jpg)
+![alt](Screenshot_21.jpg)
 
 Also I've lernt some cli commands for VMware, such as:
 - vmrun list
