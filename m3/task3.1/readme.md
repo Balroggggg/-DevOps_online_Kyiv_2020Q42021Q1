@@ -67,7 +67,17 @@ SO then I connected to db as a newuser and here are some results:
 <img src="screenshots/Screenshot_29.jpg" height="340px" width="460px" >
 
 ### PART 3 
+17. Created Amazon DynamoDB table and called it Customers. Then filled in it:
 
+<img src="screenshots/Screenshot_30.jpg" height="340px" width="800px" >
 
+19. Queries:
 
+<img src="screenshots/Screenshot_31.jpg" height="340px" width="600px" >
+
+<img src="screenshots/Screenshot_33.jpg" height="340px" width="600px" >
+
+<img src="screenshots/Screenshot_34.jpg" height="340px" width="600px" >
+
+<img src="screenshots/Screenshot_35.jpg" height="340px" width="600px" >
 
