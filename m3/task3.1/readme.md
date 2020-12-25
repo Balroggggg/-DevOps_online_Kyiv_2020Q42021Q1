@@ -55,9 +55,16 @@ SO then I connected to db as a newuser and here are some results:
 
 ### PART 2 
 
+7. Made a backup with the command: 
+- mysqldump -u root CarShop > CarShopBackUp.sql
 
+8. Deleted Shop table:
 
+<img src="screenshots/Screenshot_28.jpg" height="340px" width="460px" >
 
+9. Restored DB:
+
+<img src="screenshots/Screenshot_29.jpg" height="340px" width="460px" >
 
 ### PART 3 
 
