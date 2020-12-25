@@ -59,7 +59,7 @@ Here are the results of ping command from VM1 to VM2 and VM2 to VM1:
 
 ![alt](screenshots/Screenshot_21.jpg)
 
-Also I've lernt some cli commands for VMware, such as:
+Also I've learnt some cli commands for VMware, such as:
 - vmrun list
 - vmrun start [Path to .vmx file]
 - vmrun stop [Path to .vmx file]
