@@ -38,6 +38,15 @@ Logged in as a testuser1 and checked the permisions:
 
 <img src="screenshots/manExample.jpg" height="580px" width="800px" >
 
-6. 
+6. Explored `more` and `less` commands and the main difference is that less command is faster because it does not load the entire file at once and allows navigation though file using page up/down keys and it has a useful feature - `/word-to-seach` option
+
+7. Described in plans that I'm working on laboratory work 1:
+
+<img src="screenshots/fingerTestuser1.jpg" height="240px" width="800px" >
+
+8. Used `ls -la` to list all the contents in home directory *( - for file, d - for directory ) 
+
+<img src="screenshots/lsExample.jpg" height="530px" width="800px" >
+
 ### PART 2
 
