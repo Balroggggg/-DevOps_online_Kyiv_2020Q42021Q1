@@ -32,6 +32,10 @@ Logged in as a testuser1 and checked the permisions:
 
 <img src="screenshots/userDescription.jpg" height="170px" width="800px" >
 
+Then tried `chfn testuser1` command:
+
+<img src="screenshots/userDesc.jpg" height="370px" width="800px" >
+
 5. Tested 2 commands `--help` *(shows short description about of options)*  and `man` *(shows full description of command)*
 
 <img src="screenshots/helpExample.jpg" height="450px" width="800px" >
