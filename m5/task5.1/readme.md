@@ -28,7 +28,16 @@ Logged in as a testuser1 and checked the permisions:
 
 <img src="screenshots/testuserPermisions.jpg" height="600px" width="800px" >
 
-4. 
+4. Added a description to testuser1 with the help of command `sudo usermod -c 'just a test user' testuser1`:
 
+<img src="screenshots/userDescription.jpg" height="170px" width="800px" >
+
+5. Tested 2 commands `--help` *(shows short description about of options)*  and `man` *(shows full description of command)*
+
+<img src="screenshots/helpExample.jpg" height="450px" width="800px" >
+
+<img src="screenshots/manExample.jpg" height="580px" width="800px" >
+
+6. 
 ### PART 2
 
