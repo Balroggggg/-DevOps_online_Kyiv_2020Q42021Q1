@@ -22,7 +22,7 @@ Password change has changed system files /etc/passwd and /etc/shadow, because th
 
 Users permisions: 
 
-<img src="screenshots/UsersPermisions.jpg.jpg" height="350px" width="800px" >
+<img src="screenshots/UsersPermisions.jpg" height="240px" width="800px" >
 
 Logged in as a testuser1 and checked the permisions for :
 
