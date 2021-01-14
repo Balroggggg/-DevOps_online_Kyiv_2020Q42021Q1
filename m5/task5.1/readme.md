@@ -24,7 +24,7 @@ Users permisions:
 
 <img src="screenshots/UsersPermisions.jpg" height="240px" width="800px" >
 
-Logged in as a testuser1 and checked the permisions for :
+Logged in as a testuser1 and checked the permisions:
 
 <img src="screenshots/testuserPermisions.jpg" height="600px" width="800px" >
 
