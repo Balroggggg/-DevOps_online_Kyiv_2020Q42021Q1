@@ -80,4 +80,12 @@ Then tried `chfn testuser1` command:
 
 <img src="screenshots/cplsOutput.jpg" height="240px" width="800px" >
 
-6. 
+6. Operations with links:
+
+<img src="screenshots/linkOps.jpg" height="800px" width="800px" >
+
+So, what is the difference between hard and soft links? Hard link is a copy of the main file, but if hard link or main file were changed - both will be changed.
+Also hard link is partly independent file comparing to soft link. If you delete the main file, hard link will continue to exist, whenever soft link is just a link to file,
+so it will stop showing the data.
+
+7. 
