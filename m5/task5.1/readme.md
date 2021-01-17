@@ -111,7 +111,8 @@ file:
 
 12. Organized a screen-by-screen print of the contents of the /etc directory with the help of `ls -a /etc | less` command.
 
-13. 
+13. Devices:
+<img src="screenshots/dev.jpg" height="420px" width="800px" >
 
 14.To determine the file type it can be used `file` command or `ls -l` output:
 
@@ -119,4 +120,4 @@ file:
 
 15. Listed the first 5 directory files that were recently accessed in the /etc directory:
 
-<img src="screenshots/lastUsedFiles.jpg" height="270px" width="800px" >
+<img src="screenshots/last5.jpg" height="270px" width="800px" >
