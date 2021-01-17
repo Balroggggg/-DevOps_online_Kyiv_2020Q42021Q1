@@ -63,5 +63,21 @@ Then tried `chfn testuser1` command:
 
 <img src="screenshots/tree-Ljpg.jpg" height="800px" width="800px" >
 
-2.
+2. To determine the file type it can be used `file` command or `ls -l` output:
 
+<img src="screenshots/fileType.jpg" height="270px" width="800px" >
+
+3. `cd` is a command for navigating in file system. If it is used without any options it moves user to the home directory.
+
+4. Tried `ls` with different options. The most used 2 options are `-a`(shows list of all the content, including hidden, in current directory and `-l` 
+(show detailed (file type, rights, owner, group, date, size) list of content.
+
+<img src="screenshots/lsExamples.jpg" height="270px" width="800px" >
+
+5. IO operation from the created subdirectory in home directory:
+
+<img src="screenshots/IOlsOutput.jpg" height="340px" width="800px" >
+
+<img src="screenshots/cplsOutput.jpg" height="240px" width="800px" >
+
+6. 
