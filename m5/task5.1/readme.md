@@ -97,10 +97,26 @@ so it will stop showing the data.
 <img src="screenshots/dfHExample.jpg" height="530px" width="800px" >
 
 9. Counted the number of lines containing a given sequence of characters in a given 
-file.
+file:
 
 <img src="screenshots/grep.jpg" height="420px" width="800px" >
 
-10. Using the `find` command, found all files in the `/etc` directory containing the `host` character sequence. 
+10. Using the `find` command, found all files in the `/etc` directory containing the `host` character sequence: 
 
-<img src="screenshots/findHost.jpg" height="420px" width="800px" >
+<img src="screenshots/findHost.jpg" height="520px" width="800px" >
+
+11. Listed all objects in /etc that contain the ss character sequence using `find` and `grep`:
+
+<img src="screenshots/searchSeq.jpg" height="600px" width="800px" >
+
+12. Organized a screen-by-screen print of the contents of the /etc directory with the help of `ls -a /etc | less` command.
+
+13. 
+
+14.To determine the file type it can be used `file` command or `ls -l` output:
+
+<img src="screenshots/fileType.jpg" height="270px" width="800px" >
+
+15. Listed the first 5 directory files that were recently accessed in the /etc directory:
+
+<img src="screenshots/lastUsedFiles.jpg" height="270px" width="800px" >
