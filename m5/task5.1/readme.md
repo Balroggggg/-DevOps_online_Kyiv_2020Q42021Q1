@@ -54,3 +54,14 @@ Then tried `chfn testuser1` command:
 
 ### PART 2
 
+1. `tree` command examples:
+<img src="screenshots/treeHome.jpg" height="800px" width="800px" >
+
+<img src="screenshots/treeFileSearch.jpg" height="470px" width="800px" >
+
+<img src="screenshots/treeFileSearch.jpg" height="470px" width="800px" >
+
+<img src="screenshots/tree-Ljpg.jpg" height="800px" width="800px" >
+
+2.
+
