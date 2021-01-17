@@ -92,4 +92,8 @@ so it will stop showing the data.
 
 <img src="screenshots/findExample.jpg" height="580px" width="800px" >
 
-8. 
+8. Partitions:
+
+<img src="screenshots/dfHExample.jpg" height="530px" width="800px" >
+
+9. 
