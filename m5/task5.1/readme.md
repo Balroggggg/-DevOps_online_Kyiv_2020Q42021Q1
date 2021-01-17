@@ -96,4 +96,11 @@ so it will stop showing the data.
 
 <img src="screenshots/dfHExample.jpg" height="530px" width="800px" >
 
-9. 
+9. Counted the number of lines containing a given sequence of characters in a given 
+file.
+
+<img src="screenshots/grep.jpg" height="420px" width="800px" >
+
+10. Using the `find` command, found all files in the `/etc` directory containing the `host` character sequence. 
+
+<img src="screenshots/findHost.jpg" height="420px" width="800px" >
