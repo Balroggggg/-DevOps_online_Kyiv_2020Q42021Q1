@@ -88,4 +88,8 @@ So, what is the difference between hard and soft links? Hard link is a copy of t
 Also hard link is partly independent file comparing to soft link. If you delete the main file, hard link will continue to exist, whenever soft link is just a link to file,
 so it will stop showing the data.
 
-7. 
+7. Found files that contain squid and traceroute sequences:
+
+<img src="screenshots/findExample.jpg" height="580px" width="800px" >
+
+8. 
