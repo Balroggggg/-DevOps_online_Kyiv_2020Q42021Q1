@@ -108,3 +108,8 @@ So fields here mean:
 
 <img src="screenshots/Screenshot_7.jpg" height="490px" width="1000px" >
     
+14. `chmod` is used to change access rights to files.
+
+<img src="screenshots/Screenshot_8.jpg" height="490px" width="1000px" >
+
+
