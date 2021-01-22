@@ -38,7 +38,7 @@ The GID of 0 corresponds to the root group and the GID of 100 usually represents
 
 - `/etc/group` file, which stores group information or defines the user groups.
 
-- `groups` command. If it's used without options, it shows all groups. If you type also username, so it will show all groups this user belongs.
+- `groups` command. If it's used without options, it shows all groups. If you type also username, so it will show all groups user belongs.
 
 <img src="screenshots/Screenshot_3.jpg" height="220px" width="1000px" >
 
@@ -52,4 +52,38 @@ Most used options:
 - `-g` to set a group
 - `-U` automaticaly create group with the same name as the user
 
-6. 
+6. `sudo usermod -l renameduser testuser4` command was used to change the username:
+<img src="screenshots/Screenshot_4.jpg" height="240px" width="1000px" >
+
+7. Directory /etc/skel/ (skel is derived from the “skeleton”) is used to initiate home directory when a user is first created
+A sample layout of “skeleton” user files is:
+
+<img src="screenshots/Screenshot_5.jpg" height="310px" width="1000px" >
+
+8. `sudo userdel -r testuser2` was used to delete user including his mailbox.
+
+9. `usermod -L username` to lock user
+
+`usermod -U username` to unlock user
+
+10.
+
+
+
+11. Used `ll` to display extended format of information about the directory:
+
+<img src="screenshots/Screenshot_6.jpg" height="520px" width="1000px" >
+
+So fields here mean:
+
+    - file permissions,
+    - number of (hard) links ,
+    - owner name 
+    - owner group 
+    - file size in bytes 
+    - time of last modification 
+    - file/directory name
+    
+ 12. 
+
+    
