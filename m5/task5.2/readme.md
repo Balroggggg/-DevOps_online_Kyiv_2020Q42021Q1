@@ -84,6 +84,27 @@ So fields here mean:
     - time of last modification 
     - file/directory name
     
- 12. 
+ 12. File permissions field consist of 10 symbols.
+ 
+ For example, `drwxr-xr-x`
+ 
+ The first one shows file type - `d`. 
+ 
+ Next 3 ones show owners permissions that are `rwx`.
+ 
+ Next 3 show group permissions - `r-x`.
+ 
+ Next 3 show others permissions - `r-x`.
 
+`r` - read permission
+
+`w` - write permission
+
+`x` - execute permission
+
+`-` - can't be read, written or executed.
+
+13.  Relationship between the file and the user can be defined with the `lsof` command: 
+
+<img src="screenshots/Screenshot_7.jpg" height="490px" width="1000px" >
     
