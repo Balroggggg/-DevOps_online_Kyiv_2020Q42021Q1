@@ -66,9 +66,7 @@ A sample layout of “skeleton” user files is:
 
 `usermod -U username` to unlock user
 
-10.
-
-
+10. Users password can be removed with the help of `password -d username` command or `password -l username` command to lock users password.
 
 11. Used `ll` to display extended format of information about the directory:
 
@@ -95,14 +93,16 @@ So fields here mean:
  Next 3 show group permissions - `r-x`.
  
  Next 3 show others permissions - `r-x`.
+ 
+ Permission symbols meaning: 
+ 
+  `r` - read permission
 
-`r` - read permission
+  `w` - write permission
 
-`w` - write permission
+  `x` - execute permission
 
-`x` - execute permission
-
-`-` - can't be read, written or executed.
+  `-` - can't be read, written or executed.
 
 13.  Relationship between the file and the user can be defined with the `lsof` command: 
 
@@ -111,5 +111,55 @@ So fields here mean:
 14. `chmod` is used to change access rights to files.
 
 <img src="screenshots/Screenshot_8.jpg" height="490px" width="1000px" >
+
+15. `umask` command defines permissions, that will be assigned by default after creating new files or directories.
+
+The most popular umask values:
+        
+    0000 - rw- rw- rw- rwx rwx rwx
+    0002 - rw- rw- r-- rwx rwx r-x
+    0022 - rw- r-- r-- rwx r-x r-x
+    0007 - rw- rw- --- rwx rwx ---
+    0077 - rw- --- --- rwx --- ---
+    0027 - rw- r-- --- rwx r-x ---
+    0277 - r-- --- --- r-x --- ---    
+    
+<img src="screenshots/Screenshot_9.jpg" height="490px" width="1000px" >
+
+16. #### SUID
+
+If SUID bit is set on an executable file, this means that the file will be executed with the same permissioms as the owner of the executale file.
+
+SUID bit can be set with command `chmod u+s filename`
+
+<img src="screenshots/Screenshot_10.jpg" height="490px" width="1000px" >
+
+If you set SUID bit and you see small `s` in permissions - it's alright. However, if you see capital `S` in permissions - it means there is an error, which is caused by wrong permission - file can't be executed, so to fix it, you should use `chmod +x filename` command.
+
+#### SGID
+
+SGID is similar to SUID. With the SGID bit set, any user executing the file will have same permissions as the group owner of the file.
+
+SGID bit can be set with command `chmod g+s filename`
+
+<img src="screenshots/Screenshot_11.jpg" height="490px" width="1000px" >
+
+#### Sticky bit
+
+The sticky bit works on the directory. With sticky bit set on a directory, all the files in the directory can only be deleted or renamed by the file owners only or the root.
+
+Sticky bit can be set with command `chmod +t filename`
+
+<img src="screenshots/Screenshot_12.jpg" height="270px" width="1000px" >
+
+17. 
+
+
+
+
+
+
+
+
 
 
