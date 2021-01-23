@@ -152,7 +152,7 @@ Sticky bit can be set with command `chmod +t filename`
 
 <img src="screenshots/Screenshot_12.jpg" height="270px" width="1000px" >
 
-17. 
+17. `x` permission should be presented in the command script just to do it executable.
 
 
 
