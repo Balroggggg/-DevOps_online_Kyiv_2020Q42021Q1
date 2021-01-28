@@ -108,4 +108,12 @@ managing the priorities of processes.
 
 <img src="screenshots/Screenshot_11.jpg" height="140px" width="1000px" >
 
+16. The most common kill signals are:
+
+<img src="screenshots/Screenshot_13.jpg" height="400px" width="600px" >
+
+<img src="screenshots/Screenshot_12.jpg" height="680px" width="1000px" >
+
+17. 
+
 
