@@ -62,8 +62,28 @@ Kernel processes don't have their own address space, they operate within kernel 
  
   <img src="screenshots/Screenshot_7.jpg" height="800px" width="800px" >
   
-  10.
+  10.  The top program provides a dynamic real-time view of a running system.  It can display system
+   summary information as well as a list of processes or threads currently being managed by  the
+   Linux kernel.  The types of system summary information shown and the types, order and size of
+   information displayed for processes are all user configurable
+       
+  11.  Using `top | grep new` :
+ 
+  <img src="screenshots/Screenshot_8.jpg" height="720px" width="1000px" >
+  
+   Using hotkey: `<U>`
+ 
+ <img src="screenshots/Screenshot_9.jpg" height="720px" width="1000px" >
   
   
-  
-  
+  12. 
+          <Shift>+<N>—sort by PID;
+          <Shift>+<P>—sort by CPU usage;
+          <Shift>+<M>—sort by Memory usage;
+          <Shift>+<T>—sort by Time usage;
+          <Shift>+<Z> —change colors;
+          <c> - display absolute path of command;
+
+13. 
+
+
