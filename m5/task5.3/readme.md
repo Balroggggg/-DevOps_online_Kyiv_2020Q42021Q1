@@ -77,6 +77,7 @@ Kernel processes don't have their own address space, they operate within kernel 
   
   
   12. 
+  
           <Shift>+<N>—sort by PID;
           <Shift>+<P>—sort by CPU usage;
           <Shift>+<M>—sort by Memory usage;
@@ -84,6 +85,27 @@ Kernel processes don't have their own address space, they operate within kernel 
           <Shift>+<Z> —change colors;
           <c> - display absolute path of command;
 
-13. 
+13. Sorted by memory usage:
+
+         press <Shift>+<f> to enter the interactive menu;
+         press the up or down arrow until the %MEM choice is highlighted;
+         press <s> to select %MEM choice;
+         press <enter> to save your selection;
+         press <q> to exit the interactive menu;
+
+<img src="screenshots/Screenshot_10.jpg" height="720px" width="1000px" >
+
+
+14. There are a total of 140 priorities and two distinct priority ranges implemented in Linux.
+The first one is a nice value (niceness) which ranges from -20 (highest priority value) to 19 (lowest priority value)
+and the default is 0, this is what we will uncover in this guide. The other is the real-time priority, 
+which ranges from 1 to 99 by default, then 100 to 139 are meant for user-space.
+
+Priority sort can be set in the same way as it was in the previous point.
+
+15. `top` command is required for spectating the proccesses, while commands `nice` and `renice` are required for
+managing the priorities of processes.
+
+<img src="screenshots/Screenshot_11.jpg" height="140px" width="1000px" >
 
 
