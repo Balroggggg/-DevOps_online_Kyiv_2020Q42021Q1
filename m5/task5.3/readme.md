@@ -2,6 +2,8 @@
 
 ## TASK 5.3
 
+### PART 1
+
 1. Linux process states:
 
 <img src="screenshots/Screenshot_1.jpg" height="420px" width="600px" >
@@ -125,4 +127,36 @@ managing the priorities of processes.
 `nohup` -  ignores the HUP signal. It makes the processes immune to HUP signals in order to make the program run even after log out
 
 <img src="screenshots/Screenshot_15.jpg" height="680px" width="1000px" >
+
+### PART 2
+
+1. The most frequently used OpenSSH commands:
+
+
+     ssh-keygen - creates a key pair for public key authentication
+
+     ssh-copy-id - configures a public key as authorized on a server
+
+     ssh-agent - agent to hold private key for single sign-on
+
+     ssh-add - tool to add a key to the agent
+
+     scp - file transfer client with RCP-like command interface
+
+     sftp - file transfer client with FTP-like command interface
+
+     sshd - OpenSSH server
+     
+<img src="screenshots/Screenshot_18.jpg" height="160px" width="1000px" >
+     
+<img src="screenshots/Screenshot_17.jpg" height="160px" width="1000px" >
+
+2. Used `ssh-keygen` command to create an ssh key pair and sent public key to VM1 `192.168.106.164`:
+
+<img src="screenshots/Screenshot_20.jpg" height="600px" width="1000px" >
+
+Than connected to VM2 `192.168.106.167` from VM1 `192.168.106.164`:
+
+<img src="screenshots/Screenshot_21.jpg" height="600px" width="1000px" >
+
 
