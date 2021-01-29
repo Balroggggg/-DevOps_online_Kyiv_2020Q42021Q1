@@ -114,6 +114,15 @@ managing the priorities of processes.
 
 <img src="screenshots/Screenshot_12.jpg" height="680px" width="1000px" >
 
-17. 
+17. `jobs` - lists all jobs
 
+`bg %n` - places the current or specified job in the background, where n is the job ID
+
+`fg %n` - brings the current or specified job into the foreground, where n is the job ID
+
+`Control-Z` -	stops the foreground job and places it in the background as a stopped job
+
+`nohup` -  ignores the HUP signal. It makes the processes immune to HUP signals in order to make the program run even after log out
+
+<img src="screenshots/Screenshot_15.jpg" height="680px" width="1000px" >
 
