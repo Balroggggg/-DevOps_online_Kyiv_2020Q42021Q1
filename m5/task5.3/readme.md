@@ -151,7 +151,7 @@ managing the priorities of processes.
      
 <img src="screenshots/Screenshot_17.jpg" height="160px" width="1000px" >
 
-2. Used `ssh-keygen` command to create an ssh key pair and sent public key to VM1 `192.168.106.164`:
+2. Used `ssh-keygen` command to create ssh key pair and sent public key to VM1 `192.168.106.164`:
 
 <img src="screenshots/Screenshot_20.jpg" height="600px" width="1000px" >
 
@@ -159,4 +159,6 @@ Than connected to VM2 `192.168.106.167` from VM1 `192.168.106.164`:
 
 <img src="screenshots/Screenshot_21.jpg" height="600px" width="1000px" >
 
+
+3. 
 
