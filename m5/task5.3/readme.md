@@ -133,19 +133,19 @@ managing the priorities of processes.
 1. The most frequently used OpenSSH commands:
 
 
-     ssh-keygen - creates a key pair for public key authentication
+     `ssh-keygen` - creates a key pair for public key authentication
 
-     ssh-copy-id - configures a public key as authorized on a server
+     `ssh-copy-id` - configures a public key as authorized on a server
 
-     ssh-agent - agent to hold private key for single sign-on
+     `ssh-agent` - agent to hold private key for single sign-on
 
-     ssh-add - tool to add a key to the agent
+     `ssh-add` - tool to add a key to the agent
 
-     scp - file transfer client with RCP-like command interface
+     `scp` - file transfer client with RCP-like command interface
 
-     sftp - file transfer client with FTP-like command interface
+     `sftp` - file transfer client with FTP-like command interface
 
-     sshd - OpenSSH server
+     `sshd` - OpenSSH server
      
 <img src="screenshots/Screenshot_18.jpg" height="160px" width="1000px" >
      
@@ -160,5 +160,21 @@ Than connected to VM2 `192.168.106.167` from VM1 `192.168.106.164`:
 <img src="screenshots/Screenshot_21.jpg" height="600px" width="1000px" >
 
 
-3. 
+3. I've used these options:
+
+`-f` - to set the filename
+
+`-t` - to set a cipher 
+
+`-b` - to set the key size
+
+<img src="screenshots/Screenshot_22.jpg" height="600px" width="1000px" >
+
+<img src="screenshots/Screenshot_24.jpg" height="600px" width="1000px" >
+
+<img src="screenshots/Screenshot_23.jpg" height="600px" width="1000px" >
+
+
+
+
 
