@@ -174,7 +174,21 @@ Than connected to VM2 `192.168.106.167` from VM1 `192.168.106.164`:
 
 <img src="screenshots/Screenshot_23.jpg" height="600px" width="1000px" >
 
+4. VM1 network adapters (NAT, internal): 
 
+<img src="screenshots/Screenshot_28.jpg" height="600px" width="1000px" >
+
+VM2 network adapters (internal): 
+
+<img src="screenshots/Screenshot_27.jpg" height="600px" width="1000px" >
+
+Setting up a port forwarding: 
+
+<img src="screenshots/Screenshot_25.jpg" height="400px" width="1000px" >
+
+Result:
+
+<img src="screenshots/Screenshot_26.jpg" height="600px" width="1000px" >
 
 
 
