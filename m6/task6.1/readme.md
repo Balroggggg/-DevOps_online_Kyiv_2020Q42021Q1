@@ -15,7 +15,7 @@ VM1 network adapters (VM2net is internal interface and VM8net is NAT interface):
 
 <img src="screenshots/Screenshot_3.jpg" height="600px" width="500px" >
 
-VM2 iptables setup:
+VM1 iptables setup:
 
 
 
