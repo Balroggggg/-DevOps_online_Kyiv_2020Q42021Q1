@@ -190,5 +190,30 @@ Result:
 
 <img src="screenshots/Screenshot_26.jpg" height="600px" width="1000px" >
 
+5.  Captured the trafic while authorizing using `ssh`:
 
+tcpdump:
 
+<img src="screenshots/Screenshot_ssh.jpg" height="400px" width="1000px" >
+
+Wireshark:
+
+<img src="screenshots/Screenshot_sshWire.jpg" height="600px" width="1000px" >
+
+As we can see, second segment is sent from host to client and host acknowledged its readyness for ssh connection.
+Then third segment is sent from client to host and it acknowledged the ssh connection and now client is waiting for responce for its ssh command.
+Fourth data pdu is the first one ssh pdu.
+
+Captured the trafic while authorizing using `telnet`:
+
+tcpdump:
+
+<img src="screenshots/Screenshot_telnet.jpg" height="400px" width="1000px" >
+
+Wireshark:
+
+<img src="screenshots/Screenshot_telnetWire.jpg" height="600px" width="1000px" >
+
+As we can see, second segment is sent from host to client and host acknowledged its readyness for telnet connection.
+Then third segment is sent from client to host and it acknowledged the telnet connection and now client is waiting for responce for its telnet command.
+Fourth data pdu is the first one telnet pdu.
