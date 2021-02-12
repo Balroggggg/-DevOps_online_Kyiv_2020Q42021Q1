@@ -43,3 +43,6 @@ Script: https://github.com/Balroggggg/-DevOps_online_Kyiv_2020Q42021Q1/blob/mast
 <img src="screenshots/Screenshot_10.jpg" height="880px" width="640px" >
 
 ### PART С
+
+
+
