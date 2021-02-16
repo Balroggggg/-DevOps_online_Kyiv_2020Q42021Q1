@@ -44,5 +44,19 @@ Script: https://github.com/Balroggggg/-DevOps_online_Kyiv_2020Q42021Q1/blob/mast
 
 ### PART С
 
+Script: https://github.com/Balroggggg/-DevOps_online_Kyiv_2020Q42021Q1/blob/master/m7/task7.1/dataBackup.sh
 
+Testing script: 
+
+1. Created a syncing directory
+
+<img src="screenshots/Screenshot_12.jpg" height="250px" width="1000px" >
+
+2. Started cron job
+
+<img src="screenshots/Screenshot_11.jpg" height="140px" width="700px" >
+
+3. Added and deleted some files
+
+<img src="screenshots/Screenshot_13.jpg" height="200px" width="1000px" >
 
