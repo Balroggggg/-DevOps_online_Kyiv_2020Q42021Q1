@@ -9,7 +9,7 @@ fi
 
 function showIPandSymbNamesInSubnet {
         echo "IP address        Host"
-        cat /etc/hosts | grep '^[0-2]'
+        cat /etc/hosts | grep '^[0-9]'
 }
 
 function listOpenTcpPorts {
