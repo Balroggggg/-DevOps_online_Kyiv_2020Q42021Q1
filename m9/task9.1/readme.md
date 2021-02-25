@@ -1,6 +1,6 @@
-# Module 8 Jenkins
+# Module 9 Python
 
-## TASK 8.1
+## TASK 9.1
 
 1.  Developed fizzbuzz function (file `fizzbuzz.py`) and made a unit tests (file `UnitTestFizzBuzz.py `) for it.
 
